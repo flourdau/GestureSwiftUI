@@ -97,7 +97,6 @@ struct DraggableRectangle: View {
 
 ```
 
-
 ### 5. Ressources pour Aller Plus Loin 🔗
 
 Pour approfondir votre compréhension des gestes en SwiftUI, ces ressources techniques sont essentielles :
