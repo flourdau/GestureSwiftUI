@@ -1,7 +1,8 @@
 # 📱👈🏻 Maîtriser les Gestures (Gestes) en SwiftUI
 
 Les **Gestures** (Gestes) sont un protocole fondamental en **SwiftUI** qui permet de détecter et de réagir aux interactions physiques de l'utilisateur avec les vues (taps, glissements, pincements, rotations, etc.).  
-Le composant Button intègre déja toute la mécanique. Mais on peut gérer et paramétrer plus en détails...
+Le composant Button intègre déja une mécanique de gesture.
+
 ## 1. Concept Fondamental et Fonctionnement
 
 Le principe est d'**attacher** un objet `Gesture` à une vue à l'aide du modificateur de vue **`.gesture()`**.
@@ -9,9 +10,6 @@ Le principe est d'**attacher** un objet `Gesture` à une vue à l'aide du modifi
 L'approche de SwiftUI est **déclarative et réactive** : vous déclarez quel geste doit être reconnu, et la vue se met à jour automatiquement en modifiant une `@State`.
 
 ### Cycle de Vie du Geste
-
-Un geste passe typiquement par trois états gérés par des closures :
-
 * **`onChanged`** : Déclenché de manière répétée pendant que le geste est en cours (utile pour suivre un mouvement comme un glissement).
 * **`onEnded`** : Déclenché lorsque l'utilisateur met fin au geste (par exemple, en relâchant le doigt).
 
@@ -35,7 +33,7 @@ SwiftUI fournit cinq gestes prédéfinis (`built-in`) pour couvrir les interacti
 
 Les possibilités des gestes sont étendues via des raccourcis pratiques et des mécanismes de composition.
 
-### 3.1. Les Méthodes de Commodité (*Convenience Methods*)
+### 3.1. (*Convenience Methods*)
 
 Pour les cas très simples, on utilise des modificateurs de vue qui encapsulent le geste :
 
@@ -99,9 +97,6 @@ struct DraggableRectangle: View {
 
 ### 5. Ressources pour Aller Plus Loin 🔗
 
-Pour approfondir votre compréhension des gestes en SwiftUI, ces ressources techniques sont essentielles :
-
-Liens: 
 - [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)
 - [Vidéo](https://youtu.be/Kl_3xrZBEFY?si=GMxT4FDF2jc_AKO4&t=42)
