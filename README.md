@@ -1,7 +1,15 @@
-# 📱👈🏻 Maîtriser les Gestures (Gestes) en SwiftUI
+# 📱👈🏻  Les Gestures (Gestes) en SwiftUI
 
-Les **Gestures** (Gestes) sont un protocole fondamental en **SwiftUI** qui permet de détecter et de réagir aux interactions physiques de l'utilisateur avec les vues (taps, glissements, pincements, rotations, etc.).  
-Le composant Button intègre déja une mécanique de gesture.
+Un Gesture en SwiftUI est une interaction **tactile** spécifique et intentionnelle faite par l'**utilisateur**.  
+
+Elles permettent de détecter et de réagir aux interactions physiques de l'utilisateur avec les vues:  
+- taps
+- glissements
+- pincements
+- rotations
+- etc...
+
+*Le composant **Button** intègre déjà sa propre mécanique de gesture. (un seul tap)*.  
 
 ## 1. Concept Fondamental et Fonctionnement
 
@@ -29,20 +37,19 @@ SwiftUI fournit cinq gestes prédéfinis (`built-in`) pour couvrir les interacti
 
 ---
 
-## 3. Gestion des Interactions Avancées
+## 3. Gestion des Interactions
 
-Les possibilités des gestes sont étendues via des raccourcis pratiques et des mécanismes de composition.
+Les possibilités des gestes sont étendues via des raccourcis pratiques et des mécanismes de composition.  
 
-### 3.1. (*Convenience Methods*)
-
-Pour les cas très simples, on utilise des modificateurs de vue qui encapsulent le geste :
+Pour les cas très simples, on utilise des modificateurs de vue qui encapsulent le geste :  
 
 | Modificateur (Raccourci) | Équivalent `Gesture` Complet | Utilisation |
 | :--- | :--- | :--- |
 | **`.onTapGesture { ... }`** | Simplifie l'utilisation du `TapGesture`. | Tap simple. |
 | **`.onTapGesture(count: 2) { ... }`** | Version simplifiée pour la détection. | Double-tap. |
 
-### 3.2. La Composition pour les Gestes Complexes
+
+### La Composition pour les Gestes Avancées
 
 Le mécanisme de composition permet de combiner les gestes de base pour créer une logique d'interaction unique et plus complexe.
 
@@ -54,7 +61,8 @@ Le mécanisme de composition permet de combiner les gestes de base pour créer u
 
 ---
 
-## 4. Exemple Pratique : Rendre un Élément Déplaçable
+## 4. Exemple Pratique : 
+## Rendre un Élément Déplaçable
 
 L'exemple classique du **`DragGesture`** pour déplacer un élément à l'écran :
 
@@ -63,24 +71,19 @@ L'exemple classique du **`DragGesture`** pour déplacer un élément à l'écran
 import SwiftUI
 
 struct DraggableRectangle: View {
-    // Variable d'état pour suivre la position du décalage
     @State private var offset: CGSize = .zero
 
     var body: some View {
         Rectangle()
             .fill(Color.blue)
             .frame(width: 100, height: 100)
-            .offset(offset) // Applique le décalage (déplacement) à la vue
-
-            // Définition du geste DragGesture
+            .offset(offset)
             .gesture(
                 DragGesture()
                     .onChanged { value in
-                        // En temps réel, on met à jour l'offset avec la translation du doigt
                         offset = value.translation
                     }
                     .onEnded { _ in
-                        // À la fin du glissement, on réinitialise (ou on ancre l'élément)
                         withAnimation {
                             offset = .zero 
                         }
@@ -95,8 +98,8 @@ struct DraggableRectangle: View {
 
 ```
 
-### 5. Ressources pour Aller Plus Loin 🔗
+## 5. Ressources: 
 
 - [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)
-- [Vidéo](https://youtu.be/Kl_3xrZBEFY?si=GMxT4FDF2jc_AKO4&t=42)
+- [Vidéo YouTube (Anglais)](https://youtu.be/Kl_3xrZBEFY?si=GMxT4FDF2jc_AKO4&t=42)
