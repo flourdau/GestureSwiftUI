@@ -99,4 +99,4 @@ struct DraggableRectangle: View {
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)
 - [Vidéo YouTube (Anglais)](https://youtu.be/Kl_3xrZBEFY?si=GMxT4FDF2jc_AKO4&t=42)
 
-<iframe style="margin:auto" width="560" height="315" src="https://www.youtube.com/embed/Kl_3xrZBEFY?si=672qP1lRQ8g4FysF&t=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="margin:0 50% 0 50%" width="560" height="315" src="https://www.youtube.com/embed/Kl_3xrZBEFY?si=672qP1lRQ8g4FysF&t=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
