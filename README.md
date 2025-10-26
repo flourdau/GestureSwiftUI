@@ -1,6 +1,5 @@
 # 📱👈🏻  Les Gestures (Gestes) en SwiftUI
-
-Un Gesture en SwiftUI est une interaction **tactile** spécifique et intentionnelle faite par l'**utilisateur**.  
+Un Gesture en SwiftUI est une interaction `tactile` spécifique et intentionnelle faite par `l'utilisateur`.  
 
 Elles permettent de détecter et de réagir aux interactions physiques de l'utilisateur avec les vues:  
 - taps
@@ -9,10 +8,11 @@ Elles permettent de détecter et de réagir aux interactions physiques de l'util
 - rotations
 - etc...
 
-*Le composant **Button** intègre déjà sa propre mécanique de gesture. (un seul tap)*.  
+*Le composant `Button` intègre déjà sa propre mécanique de gesture. (un seul tap)*.  
 
-## 1. Concept Fondamental et Fonctionnement
+---
 
+## 1. Fonctionnement
 Le principe est d'**attacher** un objet `Gesture` à une vue à l'aide du modificateur de vue **`.gesture()`**.
 
 L'approche de SwiftUI est **déclarative et réactive** : vous déclarez quel geste doit être reconnu, et la vue se met à jour automatiquement en modifiant une `@State`.
@@ -22,7 +22,6 @@ L'approche de SwiftUI est **déclarative et réactive** : vous déclarez quel ge
 * **`onEnded`** : Déclenché lorsque l'utilisateur met fin au geste (par exemple, en relâchant le doigt).
 
 ---
-
 ## 2. Les Types de Gestes Intégrés
 
 SwiftUI fournit cinq gestes prédéfinis (`built-in`) pour couvrir les interactions les plus courantes :
@@ -38,7 +37,6 @@ SwiftUI fournit cinq gestes prédéfinis (`built-in`) pour couvrir les interacti
 ---
 
 ## 3. Gestion des Interactions
-
 Les possibilités des gestes sont étendues via des raccourcis pratiques et des mécanismes de composition.  
 
 Pour les cas très simples, on utilise des modificateurs de vue qui encapsulent le geste :  
@@ -50,7 +48,6 @@ Pour les cas très simples, on utilise des modificateurs de vue qui encapsulent 
 
 
 ### La Composition pour les Gestes Avancées
-
 Le mécanisme de composition permet de combiner les gestes de base pour créer une logique d'interaction unique et plus complexe.
 
 | Modificateur de Composition | But | Exemple |
@@ -63,7 +60,6 @@ Le mécanisme de composition permet de combiner les gestes de base pour créer u
 
 ## 4. Exemple Pratique : 
 ## Rendre un Élément Déplaçable
-
 L'exemple classique du **`DragGesture`** pour déplacer un élément à l'écran :
 
 ```swift
@@ -99,9 +95,8 @@ struct DraggableRectangle: View {
 ```
 
 ## 5. Ressources: 
-
 - [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)
 - [Vidéo YouTube (Anglais)](https://youtu.be/Kl_3xrZBEFY?si=GMxT4FDF2jc_AKO4&t=42)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Kl_3xrZBEFY?si=672qP1lRQ8g4FysF&t=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="margin:auto" width="560" height="315" src="https://www.youtube.com/embed/Kl_3xrZBEFY?si=672qP1lRQ8g4FysF&t=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
