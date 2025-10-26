@@ -46,7 +46,6 @@ Pour les cas très simples, on utilise des modificateurs de vue qui encapsulent 
 | **`.onTapGesture { ... }`** | Simplifie l'utilisation du `TapGesture`. | Tap simple. |
 | **`.onTapGesture(count: 2) { ... }`** | Version simplifiée pour la détection. | Double-tap. |
 
-
 ### La Composition pour les Gestes Avancées
 Le mécanisme de composition permet de combiner les gestes de base pour créer une logique d'interaction unique et plus complexe.
 
@@ -94,8 +93,13 @@ struct DraggableRectangle: View {
 
 ```
 
+---
+
+
 ## 5. Ressources: 
 - [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)
+
+---
 
 <iframe style="margin:0 25% 0 25%" width="560" height="315" src="https://www.youtube.com/embed/Kl_3xrZBEFY?si=672qP1lRQ8g4FysF&t=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
