@@ -98,7 +98,7 @@ struct DraggableRectangle: View {
 ---
 
 ## 5. Ressources: 
-- [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures). 
+- [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)  
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)  
 
 ---
@@ -108,12 +108,13 @@ struct DraggableRectangle: View {
 ---
 
 ## 6. Exemples:
-- [TGestureSwiftUI)](https://flourdau.github.io/GestureSwiftUI/pages/GestureSwiftUI/)  
-- [DrageGestureDemo)](https://flourdau.github.io/GestureSwiftUI/pages/DrageGestureDemo/)  
-- [PinchDemo)](https://flourdau.github.io/GestureSwiftUI/pages/PinchDemo/)  
-- [LongPressDemo)](https://flourdau.github.io/GestureSwiftUI/pages/LongPressDemo/)  
-- [RotationDemo)](https://flourdau.github.io/GestureSwiftUI/pages/RotationDemo/)  
-- [SimultaneousGestureExample)](https://flourdau.github.io/GestureSwiftUI/pages/SimultaneousGestureExample/)  
+- [TapGestureDemo)](/pages/TapGestureDemo)  
+- [TapGestureDemo)](https://flourdau.github.io/GestureSwiftUI/pages/TapGestureDemo)  
+- [DrageGestureDemo)](https://flourdau.github.io/GestureSwiftUI/pages/DrageGestureDemo)  
+- [PinchDemo)](https://flourdau.github.io/GestureSwiftUI/pages/PinchDemo)  
+- [LongPressDemo)](https://flourdau.github.io/GestureSwiftUI/pages/LongPressDemo)  
+- [RotationDemo)](https://flourdau.github.io/GestureSwiftUI/pages/RotationDemo)  
+- [SimultaneousGestureExample)](https://flourdau.github.io/GestureSwiftUI/pages/SimultaneousGestureExample)  
 
 ---
 
