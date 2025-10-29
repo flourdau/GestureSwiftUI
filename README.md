@@ -1,4 +1,6 @@
 # 📱👈🏻  Les Gestures (Gestes) en SwiftUI
+SLIDEEEEEEEEEEEEEEEEE
+
 Un Gesture en SwiftUI est une interaction `tactile` spécifique et intentionnelle faite par `l'utilisateur`.  
 
 Elles permettent de détecter et de réagir aux interactions physiques de l'utilisateur avec les vues:  
@@ -95,11 +97,34 @@ struct DraggableRectangle: View {
 
 ---
 
-
 ## 5. Ressources: 
-- [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)
-- [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)
+- [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures). 
+- [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)  
 
 ---
 
 <iframe style="margin:0 25% 0 25%" width="560" height="315" src="https://www.youtube.com/embed/Kl_3xrZBEFY?si=672qP1lRQ8g4FysF&t=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## 6. Exemples:
+- [TGestureSwiftUI)](https://flourdau.github.io/GestureSwiftUI/)  
+- [DrageGestureDemo)](https://flourdau.github.io/DrageGestureDemo/)  
+- [PinchDemo)](https://flourdau.github.io/PinchDemo/)  
+- [LongPressDemo)](https://flourdau.github.io/LongPressDemo/)  
+- [RotationDemo)](https://flourdau.github.io/RotationDemo/)  
+- [SimultaneousGestureExample)](https://flourdau.github.io/SimultaneousGestureExample/)  
+
+---
+
+## 7. Bonus:
+NOTEBOOOOKKKKKKLMMMMMMMMMMMMMMM
+
+---
+
+## 8. Outils:
+- Canva
+- Gemini & co
+- GitHub 
+- NoteBookKLM
+- VSCode 
