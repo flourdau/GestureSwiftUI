@@ -7,13 +7,14 @@
 </video>
 
 ```Swift
+
 import SwiftUI
 
 struct PinchDemo: View {
     @State private var scale: CGFloat = 1.0
     
     var body: some View {
-        Image("image") //Ajouter votre image dans les asset...
+        Image("image")
             .resizable()
             .scaledToFit()
             .frame(width: 300, height: 300)

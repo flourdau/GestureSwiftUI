@@ -7,6 +7,7 @@
 </video>
 
 ```Swift
+
 import SwiftUI
 
 struct SimultaneousGestureExample: View {

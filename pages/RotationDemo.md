@@ -7,11 +7,6 @@
 </video>
 
 ```Swift
-//  RotationDemo.swift
-//  MyPet
-//
-//  Created by apprenant78 on 29/10/2025.
-//
 
 import SwiftUI
 
