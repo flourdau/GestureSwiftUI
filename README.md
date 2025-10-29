@@ -108,13 +108,12 @@ struct DraggableRectangle: View {
 ---
 
 ## 6. Exemples:
-- [TapGestureDemo)](/pages/TapGestureDemo)  
-- [TapGestureDemo)](https://flourdau.github.io/GestureSwiftUI/pages/TapGestureDemo)  
 - [DrageGestureDemo)](https://flourdau.github.io/GestureSwiftUI/pages/DrageGestureDemo)  
 - [PinchDemo)](https://flourdau.github.io/GestureSwiftUI/pages/PinchDemo)  
-- [LongPressDemo)](https://flourdau.github.io/GestureSwiftUI/pages/LongPressDemo)  
 - [RotationDemo)](https://flourdau.github.io/GestureSwiftUI/pages/RotationDemo)  
 - [SimultaneousGestureExample)](https://flourdau.github.io/GestureSwiftUI/pages/SimultaneousGestureExample)  
+- [LongPressDemo)](https://flourdau.github.io/GestureSwiftUI/pages/LongPressDemo)  
+- [TapGestureDemo)](https://flourdau.github.io/GestureSwiftUI/pages/TapGestureDemo)  
 
 ---
 
