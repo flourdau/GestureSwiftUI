@@ -1,8 +1,4 @@
-# 📱👈🏻  Les Gestures en SwiftUI
-
-[Slide Canva](https://www.canva.com/design/DAG3LQ15Xtc/cVccm4Gj2o4wZ7OMz8ts2Q/view?utm_content=DAG3LQ15Xtc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9d4a6404e6)
-
-Andrei, Edilene, Florian, Séverine, Stacy
+# 📱👈🏻  Les Gestures en SwiftUI 
 
 <video width="720" height="340" controls>
     <source src="NotebookKLM.mov" type="video/mp4">
@@ -117,6 +113,7 @@ struct DraggableRectangle: View {
 ---
 
 ## 6. Ressources: 
+- [Présentation Canva](https://www.canva.com/design/DAG3LQ15Xtc/cVccm4Gj2o4wZ7OMz8ts2Q/view?utm_content=DAG3LQ15Xtc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9d4a6404e6). 
 - [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)  
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)  
 
@@ -132,3 +129,14 @@ struct DraggableRectangle: View {
 - GitHub 
 - NoteBookKLM
 - VSCode 
+
+
+---
+## 8. Equipe:
+- Andrei
+- Edilene
+- Florian
+- Séverine
+- Stacy 
+
+🩷
