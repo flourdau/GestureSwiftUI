@@ -9,7 +9,7 @@ Andrei, Edilene, Florian, Séverine, Stacy
     Your browser does not support the video tag.
 </video>  
 
-Un Gesture en SwiftUI est une interaction `tactile` spécifique et intentionnelle faite par `l'utilisateur`.  
+Une Gesture en SwiftUI est une interaction `tactile` spécifique et intentionnelle faite par `l'utilisateur`.  
 
 Elles permettent de détecter et de réagir aux interactions physiques de l'utilisateur avec les vues:  
 - taps
@@ -116,7 +116,7 @@ struct DraggableRectangle: View {
 
 ---
 
-## 5. Ressources: 
+## 6. Ressources: 
 - [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)  
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)  
 
@@ -126,7 +126,7 @@ struct DraggableRectangle: View {
 
 ---
 
-## 6. Outils:
+## 7. Outils:
 - Canva
 - Gemini & co
 - GitHub 
