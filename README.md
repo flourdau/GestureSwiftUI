@@ -1,5 +1,13 @@
-# 📱👈🏻  Les Gestures (Gestes) en SwiftUI
-SLIDEEEEEEEEEEEEEEEEE
+# 📱👈🏻  Les Gestures en SwiftUI
+
+[Slide Canva](https://www.canva.com/design/DAG3LQ15Xtc/cVccm4Gj2o4wZ7OMz8ts2Q/view?utm_content=DAG3LQ15Xtc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9d4a6404e6)
+
+Andrei, Edilene, Florian, Séverine, Stacy
+
+<video width="320" height="240" controls>
+    <source src="NotebookKLM.mov" type="video/mp4">
+    Your browser does not support the video tag.
+</video>  
 
 Un Gesture en SwiftUI est une interaction `tactile` spécifique et intentionnelle faite par `l'utilisateur`.  
 
