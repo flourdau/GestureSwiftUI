@@ -4,7 +4,7 @@
 
 Andrei, Edilene, Florian, Séverine, Stacy
 
-<video width="320" height="240" controls>
+<video width="720" height="340" controls>
     <source src="NotebookKLM.mov" type="video/mp4">
     Your browser does not support the video tag.
 </video>  
@@ -105,6 +105,17 @@ struct DraggableRectangle: View {
 
 ---
 
+### 5.1. Exemples:
+
+- [DrageGestureDemo](https://flourdau.github.io/GestureSwiftUI/pages/DrageGestureDemo)  
+- [PinchDemo](https://flourdau.github.io/GestureSwiftUI/pages/PinchDemo)  
+- [RotationDemo](https://flourdau.github.io/GestureSwiftUI/pages/RotationDemo)  
+- [SimultaneousGestureExample](https://flourdau.github.io/GestureSwiftUI/pages/SimultaneousGestureExample)  
+- [LongPressDemo](https://flourdau.github.io/GestureSwiftUI/pages/LongPressDemo)  
+- [TapGestureDemo](https://flourdau.github.io/GestureSwiftUI/pages/TapGestureDemo)  
+
+---
+
 ## 5. Ressources: 
 - [Documentation Officielle Apple (Gestures API)](https://developer.apple.com/documentation/swiftui/gestures)  
 - [Tutoriel Apple (Ajouter de l'Interactivité)](https://developer.apple.com/documentation/swiftui/adding-interactivity-with-gestures)  
@@ -115,22 +126,7 @@ struct DraggableRectangle: View {
 
 ---
 
-## 6. Exemples:
-- [DrageGestureDemo](https://flourdau.github.io/GestureSwiftUI/pages/DrageGestureDemo)  
-- [PinchDemo](https://flourdau.github.io/GestureSwiftUI/pages/PinchDemo)  
-- [RotationDemo](https://flourdau.github.io/GestureSwiftUI/pages/RotationDemo)  
-- [SimultaneousGestureExample](https://flourdau.github.io/GestureSwiftUI/pages/SimultaneousGestureExample)  
-- [LongPressDemo](https://flourdau.github.io/GestureSwiftUI/pages/LongPressDemo)  
-- [TapGestureDemo](https://flourdau.github.io/GestureSwiftUI/pages/TapGestureDemo)  
-
----
-
-## 7. Bonus:
-NOTEBOOOOKKKKKKLMMMMMMMMMMMMMMM
-
----
-
-## 8. Outils:
+## 6. Outils:
 - Canva
 - Gemini & co
 - GitHub 
